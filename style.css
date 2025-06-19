@@ -1,18 +1,40 @@
+/*Navigation menu*/
+
 .navbar {
   display:flex;
   flex-direction: row-reverse;
   cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px
+  ;  box-shadow: 15px 5px /-15px 1px #c0c1c2;
+  padding: 20px
 }
 
 #slash {
   cursor: default;
 }
 
+a:link {
+  text-decoration: none;
+  color:black
+}
+
 .nav {
   margin-left: 10%;
-  text-decoration: none;
 }
 
 .nav:hover {
-  
+  text-decoration: underline;
 }
+
+/*Title*/
+#title {
+  text-align:center;
+  border-style: solid;
+  border-color:#85aed6;
+  padding: 20%;
+  background-color: #85aed6;
+  box-shadow: 1px 10px 20px .1px #85aed6;
+}
+
