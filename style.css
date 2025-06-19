@@ -1,0 +1,18 @@
+.navbar {
+  display:flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+
+#slash {
+  cursor: default;
+}
+
+.nav {
+  margin-left: 10%;
+  text-decoration: none;
+}
+
+.nav:hover {
+  
+}
