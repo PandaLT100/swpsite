@@ -2,12 +2,14 @@
 
 .navbar {
   display:flex;
+  font-family: "Space Mono", monospace;
   flex-direction: row-reverse;
+  justify-content: space-between;
   cursor: pointer;
-  border-color: black;
+  border-color: #c0c1c2;
   border-style: solid;
-  border-width: 1px
-  ;  box-shadow: 15px 5px /-15px 1px #c0c1c2;
+  border-width: 1px;
+  box-shadow: 15px 5px 15px 1px #c0c1c2;
   padding: 20px
 }
 
@@ -26,11 +28,15 @@ a:link {
 
 .nav:hover {
   text-decoration: underline;
+  
 }
 
 /*Title*/
 #title {
   text-align:center;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
   border-style: solid;
   border-color:#85aed6;
   padding: 20%;
@@ -38,3 +44,25 @@ a:link {
   box-shadow: 1px 10px 20px .1px #85aed6;
 }
 
+hr {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#subtitle {
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 17px;
+}
+
+.btn {
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: #d9ead3;
+  border-style: ridge;
+  border-color: #d9ead3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
