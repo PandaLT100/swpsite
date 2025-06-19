@@ -17,6 +17,10 @@ body {
   padding: 20px
 }
 
+.nonav {
+  cursor: default;
+}
+
 #slash {
   cursor: default;
 }
@@ -41,10 +45,20 @@ a:link {
   font-weight: 400;
   font-style: normal;
   border-style: solid;
+  border-width: 10px;
+  max-block-size: 80%;
   border-color:#85aed6;
   padding: 20%;
   background-color: #85aed6;
-  box-shadow: 1px 10px 20px .1px #85aed6;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 hr {
