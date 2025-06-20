@@ -1,5 +1,6 @@
 body {
   background-color: #f5f3ed;
+  font-family: 'Times New Roman', Times, serif;
 }
 /*Navigation menu*/
 
@@ -50,10 +51,9 @@ a:link {
   font-style: normal;
   border-style: solid;
   border-radius: 10px;
-  border-width: 10px;
-  max-block-size: 80%;
+  border-width: 2px;
   border-color:#85aed6;
-  padding: 20%;
+  padding: 15%;
   background-color: #85aed6;
 }
 
