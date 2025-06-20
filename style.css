@@ -21,7 +21,7 @@ body {
   cursor: default;
 }
 
-#slash {
+.slash {
   cursor: default;
 }
 
@@ -38,6 +38,10 @@ a:link {
   text-decoration: underline;
 }
 
+.nav a:visited {
+  color: black;
+}
+
 /*Title*/
 #title {
   text-align:center;
@@ -45,6 +49,7 @@ a:link {
   font-weight: 400;
   font-style: normal;
   border-style: solid;
+  border-radius: 10px;
   border-width: 10px;
   max-block-size: 80%;
   border-color:#85aed6;
@@ -86,4 +91,9 @@ hr {
 
 .btn:hover {
   background-color: #b3c2ae;
+}
+
+.pdflink {
+  color: blue;
+  text-decoration-line: underline;
 }
