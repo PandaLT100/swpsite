@@ -4,26 +4,34 @@ body {
 }
 /*Navigation menu*/
 
+.main {
+  display: grid;
+  grid-row: auto;
+  row-gap: none;
+}
+
 .navbar {
   display:flex;
   background-color: white;
   font-family: "Space Mono", monospace;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
   cursor: pointer;
-  border-color: #c0c1c2;
+  border-color: #85aed6;
   border-style: solid;
   border-width: 1px;
-  box-shadow: 15px 5px 15px 1px #c0c1c2;
-  padding: 20px
+  padding: 20px;
+  margin-bottom: 0px;
 }
 
 .nonav {
   cursor: default;
+  text-decoration: none;
 }
 
-.slash {
+#slash {
   cursor: default;
+  text-decoration: none;
 }
 
 a:link {
@@ -50,11 +58,11 @@ a:link {
   font-weight: 400;
   font-style: normal;
   border-style: solid;
-  border-radius: 10px;
   border-width: 2px;
   border-color:#85aed6;
   padding: 15%;
   background-color: #85aed6;
+  margin-top: 0px;
 }
 
 h2 {
