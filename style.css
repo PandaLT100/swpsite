@@ -126,7 +126,7 @@ button:hover {
     background-color: #218838;
 }
 
-#resulta {
+#resulta, #resultb, #resultc {
     margin-top: 20px;
     font-weight: bold;
 }
