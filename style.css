@@ -2,6 +2,12 @@ body {
   background-color: #f5f3ed;
   font-family: 'Times New Roman', Times, serif;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 /*Navigation menu*/
 
 .main {
@@ -94,7 +100,7 @@ hr {
 .btn {
   margin-left: 40%;
   margin-right: 40%;
-  background-color: #d9ead3;
+  background-color: #3bc499;
   border-style: ridge;
   border-color: #d9ead3;
   border-radius: 10px;
@@ -103,7 +109,7 @@ hr {
 }
 
 .btn:hover {
-  background-color: #b3c2ae;
+  background-color: #5fe3ba;
 }
 
 .pdflink {

@@ -1,3 +1,11 @@
+//Dark mode
+function darkMode() {
+   var element = document.body;
+   var navdark = document.getElementsByClassName("darknav")
+   element.classList.toggle("dark-mode");
+   navdark.classList.toggle("darknav");
+}
+
 //Lesson 1 Quiz//
 
 function checkAnswer() {
