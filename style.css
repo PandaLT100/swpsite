@@ -1,11 +1,6 @@
 body {
-  background-color: #f5f3ed;
+  background-color: #f5f6f9;
   font-family: 'Times New Roman', Times, serif;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
 }
 
 /*Navigation menu*/
@@ -13,12 +8,12 @@ body {
 .main {
   display: grid;
   grid-row: auto;
-  row-gap: none;
+  row-gap: 0;
 }
 
 .navbar {
   display:flex;
-  background-color: white;
+  background-color: #ffffff;
   font-family: "Space Mono", monospace;
   flex-direction: row;
   justify-content: space-between;
@@ -33,6 +28,14 @@ body {
 .nonav {
   cursor: default;
   text-decoration: none;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.darknav {
+  color: black;
 }
 
 #slash {
@@ -65,9 +68,9 @@ a:link {
   font-style: normal;
   border-style: solid;
   border-width: 2px;
-  border-color:#85aed6;
+  border-color:#5c72ad;
   padding: 15%;
-  background-color: #85aed6;
+  background-color: #5c72ad;
   margin-top: 0px;
 }
 
@@ -100,16 +103,16 @@ hr {
 .btn {
   margin-left: 40%;
   margin-right: 40%;
-  background-color: #3bc499;
+  background-color: #9aabda;
   border-style: ridge;
-  border-color: #d9ead3;
+  border-color: #9aabda;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #5fe3ba;
+  background-color: #aabdf0;
 }
 
 .pdflink {
@@ -119,7 +122,7 @@ hr {
 
 /*Quiz Styling*/
 button {
-    background-color: #28a745;
+    background-color: #5c72ad;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -129,7 +132,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #aabdf0;
 }
 
 #resulta, #resultb, #resultc {
