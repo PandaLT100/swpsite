@@ -1,10 +1,33 @@
-//Dark mode
-function darkMode() {
-   var element = document.body;
-   var navdark = document.getElementsByClassName("darknav")
-   element.classList.toggle("dark-mode");
-   navdark.classList.toggle("darknav");
+// Dark Mode
+if (!localStorage.getItem("theme")) {
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  localStorage.setItem("theme", prefersDark ? "dark" : "light");
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+  const theme = localStorage.getItem("theme");
+  const icon = document.getElementById("theme-icon");
+
+  if (theme === "dark") {
+    document.body.classList.add("dark-mode");
+    if (icon) icon.textContent = "☀️";
+  } else {
+    document.body.classList.remove("dark-mode");
+    if (icon) icon.textContent = "🌙";
+  }
+});
+
+function darkMode() {
+  const body = document.body;
+  const icon = document.getElementById("theme-icon");
+
+  const isDark = body.classList.toggle("dark-mode");
+
+  localStorage.setItem("theme", isDark ? "dark" : "light");
+  if (icon) icon.textContent = isDark ? "☀️" : "🌙";
+}
+
+
 
 //Lesson 1 Quiz//
 

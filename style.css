@@ -3,6 +3,10 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+  transition: background-color 0.4s, color 0.4s;
+}
+
 /*Navigation menu*/
 
 .main {
@@ -30,13 +34,46 @@ body {
   text-decoration: none;
 }
 
-.dark-mode {
-  background-color: black;
+/* Dark Mode Base */
+body.dark-mode {
+  background-color: #121212;
   color: white;
 }
+
+/* Dark Mode Title Styling */
+body.dark-mode #title {
+  background-color: #2e3b60;
+  border-color: hsl(223, 33%, 36%);
+  color: white;
+}
+
 .darknav {
   color: black;
 }
+
+/* Dark Mode Button Styling */
+body.dark-mode button,
+body.dark-mode .btn {
+  background-color: #3e4f7a;
+  color: white;
+  border-color: #3e4f7a;
+}
+
+body.dark-mode button:hover,
+body.dark-mode .btn:hover {
+  background-color: #5a6aa1;
+}
+
+/* Dark Mode Link Styling */
+body.dark-mode a:link,
+body.dark-mode .pdflink {
+  color: #aaccff;
+}
+
+body.dark-mode .pdflink {
+  text-decoration: underline;
+}
+
 
 #slash {
   cursor: default;
