@@ -171,9 +171,18 @@ button {
 button:hover {
     background-color: #aabdf0;
 }
-
-#resulta, #resultb, #resultc {
+/*Result Styling*/
+#resulta, #resultb, #resultc, #restone, #resttwo, #restthree {
     margin-top: 20px;
     font-weight: bold;
+}
+
+/* Tables */
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px, solid black;
 }
 

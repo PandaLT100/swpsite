@@ -74,3 +74,61 @@ function checkAns() {
     }
 }
 
+//Lesson 2 Quiz//
+
+function TwoOneAns() {
+    let twoone = document.getElementById('twoone');
+    let tunan = twoone.answer.value;
+    let ratones = 'ratones';
+    let raton = 'raton';
+    let ratons = 'ratons';
+    let ratonsi = 'ratonsi';
+
+    if (tunan === ratones) {
+        document.getElementById('restone').innerText = "Amazing work!"
+    } else if (tunan === raton) {
+        document.getElementById('restone').innerText = "You're so close!"
+    } else if (tunan === ratons) {
+        document.getElementById('restone').innerText = "This answer has two mistakes. It has the tilde, and the wrong ending! 😁"
+    } else if (tunan === ratonsi) {
+        document.getElementById('restone').innerText = "You're very close! It just has the wrong ending!"
+    } 
+}
+
+function TwoTwoAns() {
+    let twotwo = document.getElementById('twotwo');
+    let lo = twotwo.answer.value;
+    let un = 'un';
+    let el = 'el';
+    let la = 'la';
+    let los = 'los';
+
+    if (lo === el) {
+        document.getElementById('resttwo').innerText = "¡Perfecto!"
+    } else if (lo === un) {
+        document.getElementById('resttwo').innerText = "We're looking for a definite article, not indefinite. Don't give up!"
+    } else if (lo === la) {
+        document.getElementById('resttwo').innerText = "'La' is feminine, but you're so close!"
+    } else if (lo === los) {
+        document.getElementById('resttwo').innerText = "'Los' is plural! You're almost there!"
+    }
+}
+
+function TwoThreeAns() {
+    let twothree = document.getElementById('twothree');
+    let abrir = twothree.answer.value;
+    let abrimos = 'abrimos';
+    let abren = 'abren';
+    let abre = 'abre';
+    let abrei = 'abrei';
+
+    if (abrir === abren) {
+        document.getElementById('restthree').innerText = "¡Super!"
+    } else if (abrir === abrimos) {
+        document.getElementById('restthree').innerText = "'Abrimos' is for 'Nosotros'. Try again!"
+    } else if (abrir === abre) {
+        document.getElementById('restthree').innerText = "'Abre' is singular. Try again!"
+    } else if (abrir === abrei) {
+        document.getElementById('restthree').innerText = "Uhhhhh"
+    }
+}
