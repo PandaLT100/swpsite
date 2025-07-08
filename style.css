@@ -9,6 +9,11 @@ body {
 
 /*Navigation menu*/
 
+#theme-toggle {
+  width: 90%;
+  margin-right: 5%;
+}
+
 .main {
   display: grid;
   grid-row: auto;
@@ -86,7 +91,7 @@ a:link {
 }
 
 .nav {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .nav:hover {
