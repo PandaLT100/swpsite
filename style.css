@@ -75,10 +75,19 @@ body.dark-mode .pdflink {
   color: #aaccff;
 }
 
-body.dark-mode .pdflink {
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td {
+  border: 1px solid white;
+}
+
+body.dark-mode .pdflink:hover {
   text-decoration: underline;
 }
 
+table.dark-mode {
+  color: white;
+}
 
 #slash {
   cursor: default;
@@ -151,6 +160,13 @@ hr {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .btn:hover {
